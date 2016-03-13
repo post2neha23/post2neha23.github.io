@@ -1,0 +1,176 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+    html {
+      height: 100%;
+    }
+    body{
+       width: 100%;
+       height: 100%;
+    }
+
+    header{
+        background-color:yellow;
+        padding: 50px;
+        border:30px solid black;
+        font-size: 30px;
+        display:  block ;
+        margin:0px;
+         width: 100%;
+         height:3%;
+				 font-style: italic;
+    }
+    nav {
+        float: left;
+				font-size: 20px;
+    }
+		ol h2{
+font-size: 25px;
+ font-style: italic;
+
+		}
+		ol li{
+font-size: 25px;
+			font-style: italic;
+		}
+		p{
+			font-size: 20px;
+						font-style: italic;
+		}
+    nav ul {
+        padding: ;
+        float: left;
+        border-bottom: ;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    a {
+        color: ;
+    }
+    section {
+        width: 100%;
+				height:60%;
+        display: inline-block;
+        float: left;
+				font-size: 20px;
+							font-style: italic;
+							background-color: grey;
+							padding:25px;
+    }
+    aside {
+        width: 20%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:;
+        color:;
+        clear: both;
+        display: block;
+    }
+
+		.sectiondivision{
+background-color: rgb(36,220,240);
+border:3px solid black;
+
+padding:30px;
+		}
+		.sectiondivision1{
+background-color: rgb(49,190,140);
+border:3px solid black;
+
+padding:30px;
+		}
+		.sectiondivision2{
+background-color: rgb(242,190,140);
+border:3px solid black;
+
+padding:30px;
+		}
+		.sectiondivision3{
+	background-color: rgb(49,190,140);
+	border:3px solid black;
+
+	padding:30px;
+		}
+		.sectiondivision4{
+			background-color: rgb(36,220,240);
+	border:3px solid black;
+	padding:40px;
+		}
+		.paragraphdown{
+padding:20px;
+
+		}
+		.sectiondivision5{
+			background-color: rgb(49,190,140);
+	border:3px solid black;
+	padding:40px;
+		}
+		.paragraphdown{
+padding:20px;
+
+		}
